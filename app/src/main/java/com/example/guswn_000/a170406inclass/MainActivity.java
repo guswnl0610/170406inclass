@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity
         }
         else if (v.getId() == R.id.b4)
         {
-            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:/01084945547"));
+            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:/01092611126"));
             startActivity(intent);
         }
         else if (v.getId() == R.id.b3) // 학생정보넘기기
