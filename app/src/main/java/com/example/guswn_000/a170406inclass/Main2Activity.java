@@ -23,6 +23,7 @@ public class Main2Activity extends AppCompatActivity {
         int num1 = intent.getIntExtra("num1",0); // 0이라고 기본값을 줌
 
         Student sss = intent.getParcelableExtra("student1");
+
         String str = sss.toString();
         et.setText(msss);
         tv2.setText(str);

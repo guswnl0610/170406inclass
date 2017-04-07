@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
             //연락처버튼
 
         }
-        else if (v.getId() == R.id.b4)
+        else if (v.getId() == R.id.b4) //전화하기
         {
             Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:/01092611126"));
             startActivity(intent);
